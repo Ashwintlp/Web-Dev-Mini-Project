@@ -27,7 +27,7 @@
 
        
 
-        $insertRecordQuery = "INSERT into kits (username, departmentno, kit, brand, size, price) 
+        $insertRecordQuery = "INSERT into kit (username, departmentno, kit, brand, size, price) 
         values ('$username', '$department','$kit', '$brand', '$size', '$price');";
         $result2 = pg_query($connection,$insertRecordQuery);
 
