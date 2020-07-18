@@ -47,7 +47,7 @@
         </header>
         <section id="details">
             <div class="container">
-                <form method="POST" action="kitt.php">
+                <form method="POST" action="kit.php">
                     <h2 id="heading" style="margin-left: 20em">CRICKET KIT</h2>
                      <div>
                         <label>Kit</label>
