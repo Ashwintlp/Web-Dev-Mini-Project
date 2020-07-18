@@ -16,7 +16,7 @@
     $result = pg_query($connection,$query1);
     $name1 = pg_fetch_assoc($result);
 
-    $query = "SELECT d.departmentname, k.kit, k.brand, k.size, k.price from department d,kit k 
+    $query = "SELECT d.departmentname, k.kit, k.brand, k.size, k.price from department d,kitt k 
     where k.departmentno=d.departmentno and k.username='$username';";
 
     $result = pg_query($connection,$query);
